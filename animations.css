@@ -1,0 +1,10 @@
+.about img, .about p, .about h1, .about h2, .team h1 {
+    transform:translateY(5vh);
+    opacity:0;
+    transition: transform 0.75s ease, opacity 0.75s ease;
+}
+
+.team a, .services a {
+    opacity:0;
+    transform:translateY(5vh);
+}
