@@ -126,3 +126,115 @@ body {
     color:black;
     transition: color 0.2s ease-in-out, background 0.2s ease-out;
 }
+
+.team {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-column-gap:2vw;
+    grid-row-gap:5vh;
+    width:90%;
+    padding: 5vh 5vw;
+}
+
+.team img {
+    width:100%;
+    height:70vh;
+    object-fit: cover;
+}
+
+.content h1 {
+    padding-left:5vw;
+    padding-top:10vh;
+    text-transform: uppercase;
+    font-size:3vw;
+}
+
+.join {
+    width:100%;
+    height:50vh;
+    padding:15vh 0;
+    padding-bottom:20vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join h1 {
+    font-size:6vw;
+    line-height:0.9;
+    font-weight:300;
+    text-align: center;
+    margin-bottom:7vh;
+}
+
+.join span {
+    font-family: "Playfair Display", sans-serif;
+    text-transform:italic;
+}
+
+.join a {
+    display:block;
+    padding:3vh 0;
+    border-top:2px solid #444;
+    width:100%;
+    text-decoration: none;
+    color:white;
+    font-size:2vw;
+}
+
+.join a div {
+    width:80%;
+    padding-left:10%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.join a img {
+    height:2vw;
+}
+
+.footer {
+    width:80%;
+    height:60vh;
+    padding:0 10%;
+    padding-top:5vh;
+    background:#7C74C7;
+    overflow: hidden;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:3vh;
+}
+
+.footer > div {
+    display:flex;
+    gap:3vw;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer h2 {
+    font-weight:300;
+    font-size:3vw;
+}
+
+.footer h1 {
+    font-weight:200;
+    font-size:20vw;
+    transform:translateY(8vh);
+    line-height:0.7;
+}
+
+.join a:hover {
+    background: #7C74C7;
+    transition:background 0.2s ease-in-out;
+}
+
+.join a {
+    transition:background 0.2s ease-in-out;
+}

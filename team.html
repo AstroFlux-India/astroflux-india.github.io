@@ -26,15 +26,69 @@
     <div class="scroll-container">
         <div class="hero">
             <h1>At Astroflux, we're driven by collaboration and collective passion to showcase the beauty of our cosmos</h1>
-            <a href="">Scroll Down</a>
+            <a onclick="lenis.scrollTo('.content')">Scroll Down</a>
         </div>
-        <div class="team">
-            not done yet.
-            <div class="first-col"></div>
-            <div class="second-col"></div>
+        <div class="content">
+            <h1>Meet our team</h1>
+            <div class="team founders">
+                <div class="person">
+                    <img src="Shreyansh.jpeg">
+                    <h2>Shreyansh Sharma</h2>
+                    <p><b>Co-Founder</b></p>
+                </div>
+                <div class="person">
+                    <img src="Khushi.jpeg">
+                    <h2>Khushi Raheja</h2>
+                    <p><b>Co-Founder</b></p>
+                </div>
+                <div class="person">
+                    <img src="Aaditya.jpeg">
+                    <h2>Aaditya Sabharwal</h2>
+                    <p><b>Graphics Designer</b></p>
+                </div>
+                <div class="person">
+                    <img src="rudra.jpg">
+                    <h2>Rudra Sekhri</h2>
+                    <p><b>Head of Technology</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="join" id="contact">
+            <h1>JOIN THE<br><span>Community</span></h1>
+            <a href="https://forms.gle/2QNSf8pFsczFC3H28">
+                <div>
+                    <p>FORM</p>
+                    <img src="join.svg" alt="">
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/company/astroflux/" style="border-bottom: 2px solid #444;">
+                <div>
+                    <p>LINKEDIN</p>
+                    <img src="join.svg" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="footer">
+            <h2>ASTROFLUX</h2>
+            <div class="links">
+                <a onclick="lenis.scrollTo('.hero');">HOME</a>
+                <a onclick="lenis.scrollTo('.team');">ABOUT</a>
+                <a onclick="lenis.scrollTo('.services');">SERVICES</a>
+                <a href="comingsoon.html">TEAM</a>
+            </div>
+            <div class="socials">
+                <a href="mailto:astroflux.team@gmail.com">EMAIL</a>
+                <a href="https://www.linkedin.com/company/astro-flux/">LINKEDIN</a>
+                <a href="https://forms.gle/2QNSf8pFsczFC3H28">COMMUNITY</a>
+                <a href="mailto:astroflux.team@gmail.com">WORK WITH US</a>
+            </div>
+            <p>Designed and Developed by Rudra Sekhri</p>
+            <h1>&copy; 2023</h1>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script type="text/javascript" src="scroll-animations.js"></script>
     <script src="cursor.js"></script>
 </body>
 </html>
